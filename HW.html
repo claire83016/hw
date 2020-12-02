@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback Form</title>
+</head>
+<body>
+<form action="/action_page.php" method="post">
+	<table border ="1">
+		<tr>
+			<th colspan="3">About me--108205082</th>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<img src="D:\計算機概論\IMAG0120.jpg" alt="personal photo" width="180" height="200">
+			</td>
+			<td colspan="2">
+			<label for="Name">Name:</label>
+			<input type="text" name="Name">
+	
+			<br><label for="gender">Gender:</label>
+			<input type="radio" id="gender1" name="gender" checked>
+			<label foe="gender1">Male</label>
+			<input type="radio" id="gender2" name="gender" checked>
+			<label foe="gender2">Female</label>
+			<input type="radio" id="gender3" name="gender" checked>
+			<label foe="gender3">Other</label><br></td>
+		</tr>	
+		<tr>
+			<td>
+				<label for="conutry">Country:</label>
+				<select name="Country" id="country">
+				<option value="Taipei">Taipei</option>
+				<option value="Keelung">Keelung</option>
+				<option value="Taoyuan">Taoyuan</option>
+				<option value="Hsinchu">Hsinchu</option>
+				<option value="Miaoli">Miaoli</option>
+				<option value="Taichung">Taichung</option>
+				<option value="Changhua">Changhua</option>
+				<option value="Yunlin">Yunlin</option>
+				<option value="Chiayi">Chiayi</option>
+				<option value="Tianan">Tianan</option>
+				<option value="Kaohsiuing">Kaohsiung</option>
+				<option value="Pingtung">Pingtung</option>
+				<option value="Yilan">Yialn</option>
+				<option value="Hualien">Hualien</option>
+				<option value="Taitung">Taitung</option>		
+				</select>
+			</td>
+			<td>
+				<label for="birthday">Birthday:</label>
+				<input type="date" name="bookdate" value="">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email">
+			</td>
+		</tr>
+		<tr>
+			<td>Hobby</td>	
+			<td colspan="2">
+				<input type="checkbox" id="hobby1" name="hobby1" value="Swimming">
+				<label for="hobby1">Swimming</label>
+				<input type="checkbox" id="hobby2" name="hobby2" value="Volleyball">
+				<label for="hobby2">Volleyball</label>
+				<input type="checkbox" id="hobby3" name="hobby3" value="Movies">
+				<label for="hobby3">Movies</label>
+				<input type="checkbox" id="hobby5" name="hobby5" value="Sleeping">
+				<label for="hobby4">Games</label>
+				<input type="checkbox" id="hobby5" name="hobby5" value="Sleeping">
+				<label for="hobby5">Sleeping</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Skill</td>
+			<td colspan="2">
+				<input type="checkbox" id="skill1" name="skill1" value="Java">
+				<label for="skill1">Java</label>
+				<input type="checkbox" id="skill2" name="skill2" value="HTML">
+				<label for="skill2">HTML</label>
+				<input type="checkbox" id="skill3" name="skill3" value="Python">
+				<label for="skill3">Python</label>
+				<input type="checkbox" id="skill4" name="skill4" value="Microsoft">
+				<label for="skill3">Microsoft</label>
+				<input type="checkbox" id="skill5" name="skill5" value="Adobe Premiere">
+				<label for="skill5">Premiere</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Say Something</td>
+			<td>
+				<label for="comments"></label>
+				<textarea id="comments" name="name" rows="5" cols="60">Say something here.
+				</textarea></td>
+		</tr>	
+		<tr>
+			<td colspan="3">
+				<center><input type="reset" name="重設">
+						<input type="submit" name="Submit"></center>
+			</td>
+		</tr>
+					</form>
+		
+	</table>
+</body>
+</html>
